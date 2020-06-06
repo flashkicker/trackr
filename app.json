@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Trackr",
+    "slug": "trackr",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "package": "com.ujjdev.trackr",
+      "versionCode": 1
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "sdkVersion": "37.0.0",
+    "description": "Cross-platform mobile app that lets users track runs, roadtrips or any kind of movement built with React Native",
+    "githubUrl": "https://github.com/flashkicker/trackr-app"
+  }
+}
